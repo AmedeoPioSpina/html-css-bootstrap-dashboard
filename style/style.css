@@ -5,3 +5,11 @@
 .my_bg-light-gray {
     background-color: #F8F9FA;
 }
+
+.my_custom_height {
+    height: 91.7vh;
+}
+
+.sidebar_custom_bg {
+    background-image: url("../img/sidebar-bg.png");
+}
