@@ -6,6 +6,11 @@
     width: 3rem;
 }
 
+.my_custom_size_1 {
+    width: 2rem;
+    height: 2rem;
+}
+
 .my_bg-light-gray {
     background-color: #F8F9FA;
 }
@@ -21,4 +26,16 @@
 .sidebar_custom_bg {
     background-image: url("../img/sidebar-bg.png");
     background-color: #051E34;
+}
+
+.my_custom_bg_red {
+    background: #DC3545;
+}
+
+.my_custom_bg_green {
+    background-color: #198754;
+}
+
+.my_custom_bg_yellow {
+    background-color: #FFC107;
 }

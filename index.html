@@ -66,14 +66,14 @@
                 </nav>
                 <div class="col overflow-auto p-0">
                     <div class="container-fluid bg-primary py-4">
-                        <div class="row d-flex flex-column text-white gap-4">
-                            <div class="col d-flex align-items-center flex-nowrap">
-                                <p class="fw-bold mb-0 me-4">
-                                    Nuovo Studente
+                        <div class="row d-flex flex-column-reverse text-white gap-4">
+                            <div class="col">
+                                <p class="m-0">
+                                    Studenti online negli ultimi 30 minuti
                                 </p>
-                                <button class="btn border-white text-white">
-                                    <i class="fa-solid fa-plus"></i>
-                                </button>
+                                <p class="m-0 fs-1">
+                                    125
+                                </p>
                             </div>
                             <div class="col">
                                 <div class="d-inline-flex align-items-end mb-2">
@@ -94,14 +94,62 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="col">
-                                <p class="m-0">
-                                    Studenti online negli ultimi 30 minuti
+                            <div class="col d-flex align-items-center flex-nowrap">
+                                <p class="fw-bold mb-0 me-4">
+                                    Nuovo Studente
                                 </p>
-                                <p class="m-0 fs-1">
-                                    125
-                                </p>
+                                <button class="btn border-white text-white">
+                                    <i class="fa-solid fa-plus"></i>
+                                </button>
                             </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col">
+                                <table class="table">
+                                    <thead>
+                                        <caption class="caption-top">
+                                                Prossime classi
+                                        </caption>
+                                        <tr>
+                                            <th scope="col">
+                                                Nome
+                                            </th>
+                                            <th scope="col">
+                                                Stato
+                                            </th>
+                                            <th scope="col">
+                                                Azione
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th class="d-flex align-items-center flex-nowrap">
+                                                <img class="my_custom_size_1" src="img/class-avatar.jpg" alt="">
+                                                <p class="m-0 text-nowrap">
+                                                    Classe 75
+                                                </p>
+                                            </th>
+                                            <th>
+                                                <p class="rounded m-0 px-1 text-white my_custom_bg_green">
+                                                    Done
+                                                </p>
+                                            </th>
+                                            <th class="d-flex">
+                                                <button class="btn border-black text-dark-emphasis">
+                                                    <i class="fa-solid fa-pen"></i>
+                                                </button>
+                                                <button class="btn border-black text-dark-emphasis">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
+                                            </th>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="col"></div>
                         </div>
                     </div>
                 </div>
