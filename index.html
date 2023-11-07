@@ -15,8 +15,9 @@
     <header>
         <nav class="navbar navbar-expand-sm my_bg-light-gray">
             <div class="container-fluid flex-nowrap bg-white">
-                <a class="navbar-brand p-0 me-4" href="#">
-                    <img class="logo" src="img/mobile-logo.png" alt="Boolean mobile logo">
+                <a class="navbar-brand p-0 me-3" href="#">
+                    <img class="logo d-lg-none" src="img/mobile-logo.png" alt="Boolean mobile logo">
+                    <img class="logo d-none d-lg-inline-block" src="img/logo.svg" alt="Boolean logo">
                 </a>
                 <div class="input-group me-2">
                     <span class="input-group-text bg-dark-subtle border-0 ps-2 pe-0">
@@ -24,7 +25,16 @@
                     </span>
                     <input class="form-control border-0 bg-dark-subtle" type="text" placeholder="Prova a cercare: Lezioni di Laravel">
                 </div>
-                <div class="position-relative">
+                <button class="btn d-none d-lg-inline-block border-0 py-0 pe-0 mx-1" type="button">
+                    <i class="fa-solid fa-list"></i>
+                </button>
+                <button class="btn d-none d-lg-inline-block border-0 py-0 pe-0 mx-1" type="button">
+                    <i class="fa-solid fa-circle-question "></i>
+                </button>
+                <button class="btn d-none d-lg-inline-block border-0 py-0 pe-0 mx-1" type="button">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </button>
+                <div class="position-relative ms-1">
                     <button class="btn border-0 py-0 pe-0" type="button" data-bs-toggle="collapse" data-bs-target="#nav_collapse_box" aria-expanded="false" aria-controls="nav_collapse_box">
                         <i class="fa-solid fa-bell" style="color: #ff8f00;"></i>
                     </button>
@@ -45,20 +55,32 @@
     </header>
     
     <nav class="navbar flex-column position-absolute py-3 my_custom_height my_custom_nav sidebar_custom_bg">
-        <div class="navbar-nav d-flex flex-column align-items-center">
+        <div class="navbar-nav d-flex flex-column align-items-center align-items-lg-start">
             <a class="nav-link text-white" href="#">
-                <i class="fa-solid fa-house"></i>
+                <i class="fa-solid fa-house me-lg-2"></i>
+                <p class="d-none d-lg-inline-block m-0 ">
+                    Home
+                </p>
             </a>
             <a class="nav-link text-white" href="#">
-                <i class="fa-solid fa-chart-simple"></i>
+                <i class="fa-solid fa-chart-simple me-lg-2"></i>
+                <p class="d-none d-lg-inline-block m-0  ms-lg-1">
+                    Stats
+                </p>
             </a>
             <a class="nav-link text-white" href="#">
-                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-signal  me-lg-1"></i>
+                <p class="d-none d-lg-inline-block m-0  ms-lg-1">
+                    Signals
+                </p>
             </a>
         </div>
-        <div class="navbar-nav d-flex flex-column align-items-center">
+        <div class="navbar-nav d-flex flex-column align-items-center align-items-lg-start">
             <a class="nav-link text-white" href="#">
-                <i class="fa-solid fa-gear"></i>
+                <i class="fa-solid fa-gear me-lg-2"></i>
+                <p class="d-none d-lg-inline-block m-0">
+                    Admin
+                </p>
             </a>
         </div>
     </nav>

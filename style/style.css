@@ -71,3 +71,22 @@
         order: 3;
     }
 }
+
+@media screen and (min-width: 992px) {
+    .logo {
+        width: 7rem;
+    }
+    .my_custom_nav {
+        width: 8rem;
+    }
+
+    .my_custom_nav a {
+        
+    }
+
+    .my_custom_main {
+        margin-left: 8rem;
+        width: calc(100vw - 8rem);
+    }
+
+}
