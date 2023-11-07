@@ -48,7 +48,16 @@
     max-width: 1.7rem;
 }
 
-@media (min-width: 768px) {
+.my_custom_nav {
+    width: 4rem;
+}
+
+.my_custom_main {
+    margin-left: 4rem;
+    width: calc(100vw - 4rem);
+}
+
+@media screen and (min-width: 768px) {
     #blue_band{
         flex-direction: row!important;
         align-items: start;
