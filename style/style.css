@@ -27,6 +27,10 @@
     font-size: 0.7rem;
 }
 
+.my_custom_fs_3 {
+    font-size: 0.6rem;
+}
+
 .sidebar_custom_bg {
     background-image: url("../img/sidebar-bg.png");
     background-color: #051E34;
